@@ -1,18 +1,20 @@
 const config = {
   s3: {
     REGION: "us-west-2",
-    BUCKET: "notes-app-upload-aws-serverless-framework",
+    BUCKET: "my-notes-api-s3",
   },
   apiGateway: {
     REGION: "us-west-2",
-    URL: "https://wcotbg5cz9.execute-api.us-west-2.amazonaws.com/prod/",
+    URL: "https://tla4wud4h6.execute-api.us-west-2.amazonaws.com/prod",
   },
   cognito: {
     REGION: "us-west-2",
-    USER_POOL_ID: "us-west-2_bbHHO0iK4",
-    APP_CLIENT_ID: "1uiudikcdv3rl2hd6fjp6nhptd",
-    IDENTITY_POOL_ID: "us-west-2:32e9bf0f-b625-48c5-b799-0b7a2e1a88da",
+    USER_POOL_ID: "us-west-2_ZJXdsUEiE",
+    APP_CLIENT_ID: "487rdfk99ehrei508c84bn1o66",
+    IDENTITY_POOL_ID: "us-west-2:26622dad-47b3-49ee-98f8-ab252c173c00",
   },
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "pk_test_51IE1LnL75xjERPyiNUERpIlWI0wn3h4HcxvgayOEFocHZgam2LlPtsK8k3ZQVUPrba64TjUlXOagNRf11RJSrd8U0074xI6Rg1",
 };
 
 export default config;
