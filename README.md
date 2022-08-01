@@ -10,13 +10,13 @@
 # Description
 The note application allows a user to sign-up or sign-In and save notes with file attachments. Sign-up and sign-in are controlled by AWS (Amazon Web Services) Cognito User Pools so users can log-in with their email address. AWS-Amplify is used for user authorization and API connection to backend serverless stack. Notes are saved in AWS DynamoDB and any file attachments are stored in AWS S3 Buckets. The serverless stack repo is found here https://github.com/jaredseefried/serverless-api-to-aws 
 
- ### Deployed Site @ https://my-serverless-note-app-to-aws.netlify.app/
+ ### Deployed Site @ https://mern-note-app-eight.vercel.app/
 ---
  ![Scratch Note App](./public/images/notes-screenshot.jpg)
 
 # Installation Requirements
 
-1. Clone Note Application in the command line by entering: git clone https://github.com/jaredseefried/serverless-note-app.git 
+1. Clone Note Application in the command line by entering: git clone https://github.com/sallamy2580/mern_note_app.git 
 
 2. Install required libraries from entering in the command line: npm i
 
@@ -38,6 +38,6 @@ MIT
 
 # Have Questions?
 
-## [Github Profile: github.com/jaredseefried](https://github.com/jaredseefried "Title")
+## [Github Profile: github.com/jaredseefried](https://github.com/sallamy2580 "Title")
 
 Please email me at jared.seefried@yahoo.com if you have additional questions.
