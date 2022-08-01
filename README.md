@@ -40,4 +40,4 @@ MIT
 
 ## [Github Profile: github.com/sallamy2580](https://github.com/sallamy2580 "Title")
 
-Please email me at jared.seefried@yahoo.com if you have additional questions.
+Please email me at polarisfar7@gmail.com if you have additional questions.
